@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+}
+.nav-container{
+    width:100vw;
+    background-color: rgb(63, 7, 7);
+}
+.main{
+    height:90vh;
+    width:100vw;
+    background-color: white;
+}
+.logo-container{
+    display:flex;
+}
+.options-button{
+    background:transparent;
+    border-radius: 25px;
+    height:30px;
+    padding:10px;
+    border-width: 0px;
+    padding-bottom: 5px;
+    margin-top:10px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin-left: 0px;
+}
+.options-button:hover{
+    background-color: rgb(255, 149, 0);
+    color:black;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    max-width:90vw;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    background-color:rgb(63, 7, 7);
+}
